@@ -19,57 +19,61 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Reinforcement Learning applied to DOOM',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Play DOOM with Reinforcement Learning',
+        link: 'https://github.com/boubnanm/Deep-Reinforcement-Learning-applied-to-DOOM',
       },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+//      {
+//        name: 'ChromeExtensionKit',
+//        description:
+//          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+//        link: 'https://chromeextensionkit.com/?ref=devfolio',
+//      },
+//      {
+//        name: 'Another Cool Project',
+//        description:
+//          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+//        link: 'https://github.com/RyanFitzgerald/devfolio',
+//      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Mindee',
+        description: 'R&D Data Scientist, March 2020 - Present',
+        link: 'https://mindee.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Fortia Financial Solutions',
+        description: 'R&D Data Scientist, May 2019 - November 2019',
+        link: 'https://fortia.fr/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Société Générale',
+        description: 'Data Scientist, March 2018 - August 2020',
+        link: 'https://www.societegenerale.com/en',
+      },
+      {
+        name: 'Total France',
+        description: 'Data Scientist, September 2017 - February 2018',
+        link: 'https://totalenergies.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Programing Languages',
+        description: 'Python, R, Bash, SQL',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Libraries & Frameworks',
+        description: 'Tensorflow, Pytorch, Scikit-learn, NumPy, OpenCV, Plotly, Pandas, Pytest',
       },
       {
-        name: 'Other',
+        name: 'Continuous Integration',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Jenkins, GitHub Actions',
       },
     ],
   },

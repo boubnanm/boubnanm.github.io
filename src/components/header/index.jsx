@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
+import { FaGithub } from "react-icons/fa";
 
 import profileImg from '../../images/profile-mehdi.png';
 
@@ -18,7 +19,7 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const twitter = get(metadata, 'author', false);
+//   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -49,16 +50,16 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {twitter && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`https://twitter.com/${twitter}`}
-              >
-                Twitter
-              </a>
-            </li>
-          )}
+{/*           {twitter && ( */}
+{/*             <li className={classes.item}> */}
+{/*               <a */}
+{/*                 className={classes.link} */}
+{/*                 href={`https://twitter.com/${twitter}`} */}
+{/*               > */}
+{/*                 Twitter */}
+{/*               </a> */}
+{/*             </li> */}
+{/*           )} */}
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
