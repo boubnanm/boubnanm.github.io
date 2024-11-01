@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Mehdi Boubnan',
     // Main Site Title
-    title: `Mehdi Boubnan | Data Scientist`,
+    title: `Mehdi Boubnan | Technical Lead`,
     // Description that goes under your name in main bio
-    description: `Senior Data Scientist.`,
+    description: `Technical Lead - Data Science & Machine Learning Engineer.`,
     // Optional: Twitter account handle
     author: `@mehdiboubnan`,
     // Optional: Github account URL
