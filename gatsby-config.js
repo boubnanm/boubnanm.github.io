@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/mehdi-boubnan/`,
     // Content of the About Me section
-    about: `Hi, my name is Mehdi Boubnan, Senior Data Scientist @ Mindee.`,
+    about: `Hi, my name is Mehdi Boubnan, Technical Lead - Data Science & Machine Learning Engineer @ Mindee.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -41,7 +41,7 @@ module.exports = {
     experience: [
       {
         name: 'Mindee',
-        description: 'R&D Data Scientist, March 2020 - Present',
+        description: 'Technical Lead - Data Science & Machine Learning Engineer, March 2020 - Present',
         link: 'https://mindee.com/',
       },
       {
@@ -64,16 +64,26 @@ module.exports = {
     skills: [
       {
         name: 'Programing Languages',
-        description: 'Python, R, Bash, SQL',
+        description: 'Python, Bash, SQL',
       },
       {
         name: 'Libraries & Frameworks',
         description: 'Tensorflow, Pytorch, Scikit-learn, NumPy, OpenCV, Plotly, Pandas, Pytest',
       },
       {
-        name: 'Continuous Integration',
+        name: 'Model Deployment & Inference Optimization',
         description:
-          'Jenkins, GitHub Actions',
+          'Triton Server, ONNX, TensorRT',
+      },
+      {
+        name: 'API Development ',
+        description:
+          'FastAPI, Celery, RabbitMQ',
+      },
+      {
+        name: 'MLOps & CI/CD',
+        description:
+          'Docker, ArgoCD, ClearML, GitHub Actions',
       },
     ],
   },
